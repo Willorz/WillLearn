@@ -4,16 +4,12 @@ import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
 import com.ed.will.willlearn.R;
-import com.ed.will.willlearn.RecyclerviewCardview.RcyclerviewAndCardviewActivity;
-
-import java.util.ArrayList;
+import com.ed.will.willlearn.recyclerviewcardview.RcyclerviewAndCardviewActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 

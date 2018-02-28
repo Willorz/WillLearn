@@ -1,4 +1,4 @@
-package com.ed.will.willlearn.RecyclerviewCardview;
+package com.ed.will.willlearn.recyclerviewcardview;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

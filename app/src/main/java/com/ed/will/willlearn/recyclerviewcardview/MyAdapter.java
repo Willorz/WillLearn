@@ -1,4 +1,4 @@
-package com.ed.will.willlearn.RecyclerviewCardview;
+package com.ed.will.willlearn.recyclerviewcardview;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
