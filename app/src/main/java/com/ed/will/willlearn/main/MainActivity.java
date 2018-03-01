@@ -13,10 +13,11 @@ import android.widget.Toast;
 
 import com.ed.will.willlearn.R;
 import com.ed.will.willlearn.recyclerviewcardview.RcyclerviewAndCardviewActivity;
+import com.ed.will.willlearn.webview.WebViewActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    Button recyclervcardvUse;
+    Button recyclervcardvUse,webView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +31,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private void initEvent() {
         recyclervcardvUse.setOnClickListener(this);
+        webView.setOnClickListener(this);
     }
 
     private void initView() {
@@ -46,6 +48,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         actionBar.hide();
 
         recyclervcardvUse=findViewById(R.id.btn_rcvcdv);
+        webView=findViewById(R.id.btn_webview);
     }
 
     @Override
@@ -54,6 +57,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_rcvcdv:
                 startAct(MainActivity.this,RcyclerviewAndCardviewActivity.class);
                 Toast.makeText(this,"shengxiao",Toast.LENGTH_LONG).show();
+                break;
+
+            case R.id.btn_webview:
+                startAct(this, WebViewActivity.class);
                 break;
 
         }
